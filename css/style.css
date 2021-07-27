@@ -1,6 +1,6 @@
 /***** NAVBAR *****/
 .navbar-default {
-  background-color: blue;
+  background-color: #0528fb;
   border-radius: 0;
   background-image: none;
 }
@@ -92,6 +92,8 @@ h4 {
 .panel-title {
 	font-size: 20px;
 }
+
+
 
 
 
