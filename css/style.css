@@ -63,6 +63,9 @@ a:hover {
   color: #ebd122;
 }
 
+
+
+
 .jumbotron {
   
   text-align: center;
@@ -95,6 +98,7 @@ h4 {
 
 .map {
 	position: relative;
+	padding: 2px;
 	
 }
 
@@ -125,7 +129,7 @@ h4 {
 
 .chart {
 	position: relative;	
-	
+	padding: 2px;
 }
 
 .chartTitle {
