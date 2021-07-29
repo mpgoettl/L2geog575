@@ -94,9 +94,8 @@ h4 {
 }
 
 .map {
-	/*position: absolute;*/
-	margin-top: 0px;
-	margin-left: 40%;
+	position: relative;
+	
 }
 
 .NAcountries {
@@ -125,8 +124,8 @@ h4 {
 }
 
 .chart {
-	margin-top: 0px;
-	margin-left: 40%;
+	position: relative;	
+	
 }
 
 .chartTitle {
