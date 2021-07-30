@@ -417,7 +417,6 @@ function highlight(props){
 //function to reset the element style on mouseout
 function dehighlight(props){
     var selected = d3.selectAll("." + props.adm1_code)
-        
         .style("stroke", function(){
             return getStyle(this, "stroke")
         })
