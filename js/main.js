@@ -407,8 +407,9 @@ function updateChart(bars, n, colorScale){
 function highlight(props){
     //change stroke
     var selected = d3.selectAll("." + props.adm1_code)
-        .style("stroke", "blue")
-        .style("stroke-width", "2");
+        
+		.style("stroke", "purple")
+        .style("stroke-width", "3");
     
     setLabel(props);
 };
@@ -416,6 +417,7 @@ function highlight(props){
 //function to reset the element style on mouseout
 function dehighlight(props){
     var selected = d3.selectAll("." + props.adm1_code)
+        
         .style("stroke", function(){
             return getStyle(this, "stroke")
         })
